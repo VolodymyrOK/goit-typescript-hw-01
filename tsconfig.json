@@ -1,27 +1,20 @@
 {
   "compilerOptions": {
-    /* Language and Environment */
-    "target": "ES2019",
-    "lib": ["dom", "ES2021"],
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    /* Modules */
-    "module": "ES2020",
     "rootDir": "./src",
-    "moduleResolution": "node",
-    /* JavaScript Support */
-    "allowJs": false,
-    /* Emit */
-    "sourceMap": true,
     "outDir": "./dist",
-    "preserveConstEnums": true,
-    /* Interop Constraints */
+    "allowJs": false,
     "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
     "esModuleInterop": true,
-    /* Type Checking */
+    "experimentalDecorators": true,
+    "lib": ["dom", "ES2021"],
+    "module": "es2020",
+    "moduleResolution": "node",
+    "preserveConstEnums": true,
+    "skipLibCheck": true,
     "strictNullChecks": true,
-    /* Completeness */
-    "skipLibCheck": true
+    "sourceMap": true,
+    "target": "es2019"
   },
   "include": ["**/*.ts"]
 }
